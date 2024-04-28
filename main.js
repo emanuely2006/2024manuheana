@@ -20,11 +20,12 @@ function aumentaTamanho() {
     }
     numeroSenha.textContent = tamanhoSenha;
 }
-// código omitido
+
 
 const campoSenha = document.querySelector('#campo-senha');
 
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
+geraSenha();
 
 function geraSenha(){
 for (let i = 0; i < tamanhoSenha;i++) {
